@@ -1,0 +1,38 @@
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+:root {
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+
+    --text-color-primary: #F1F5Ff;
+    --text-color-secondary: #CBD5E1;
+
+    --ff-archivo: "Archivo", serif;
+}
+
+h1 {font: 800 1.5rem/1.35 var(--ff-archivo);}
+
+h2 {font: 800 1rem/1.40 var(--ff-archivo);}
+
+h3 {font: 800 .875rem/1.40 var(--ff-archivo);}
+
+span { font: 600 .875rem/1.45 var(--ff-archivo);}
+
+p { font: 400 .875rem/1.45 var(--ff-archivo);}
+
+.tag {
+    background-color: var(--brand-color-dark);
+    padding: .25rem;
+    color: #FFF;
+}
