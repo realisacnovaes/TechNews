@@ -21,6 +21,12 @@
     --ff-archivo: "Archivo", serif;
 }
 
+body, html {
+    overflow-x: hidden;
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+}
+
 h1 {font: 800 1.5rem/1.35 var(--ff-archivo);}
 
 h2 {font: 800 1rem/1.40 var(--ff-archivo);}
@@ -35,4 +41,22 @@ p { font: 400 .875rem/1.45 var(--ff-archivo);}
     background-color: var(--brand-color-dark);
     padding: .25rem;
     color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    font: 400 .875rem/1.45 var(--ff-archivo);
+    color: inherit;
+}
+
+.container {
+    --max-width: 375px;
+    width: min(var(--max-width), 100% - 2rem * 2);
+    margin-inline: auto;
+}
+
+@media (width >= 80em) {
+    .container {
+        --max-width: 80em;
+    }
 }

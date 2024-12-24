@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.desktop-only {
+    display: none;
+}
+
+.mobile-only {
+    display: inline-block;
+}
+
+@media (width >= 80em) {
+    .desktop-only {
+        display: inline-block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+header {
+    & nav {
+
+        & div:nth-child(1) {
+            display: flex;
+            justify-content: space-between;
+            padding-block: 1.25rem;
+        }
+
+        & img {
+            vertical-align: middle;
+        }
+    }
+}
+
+@media (width >= 80em) {
+    nav {
+        & div:nth-child(2) {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+
+            padding-block: .875rem;
+            border-top: 1px solid var(--stroke-color);
+            border-bottom: 1px solid var(--stroke-color);
+        }
+    }
+}
