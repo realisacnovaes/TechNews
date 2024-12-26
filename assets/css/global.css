@@ -38,9 +38,13 @@ span { font: 600 .875rem/1.45 var(--ff-archivo);}
 p { font: 400 .875rem/1.45 var(--ff-archivo);}
 
 .tag {
+    display: inline-block;
+
     background-color: var(--brand-color-dark);
-    padding: .25rem;
     color: #FFF;
+
+    padding: .25rem;
+    border-radius: 4px;
 }
 
 a {
