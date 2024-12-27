@@ -26,6 +26,7 @@
     display: inline-block;
 }
 
+
 .gap-1 {
     gap: 1rem;
 }
@@ -45,5 +46,9 @@
     
     .grid-col-2 {
         grid-template-columns: 1fr 1fr;
+    }
+    
+    .grid-4-rols {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
