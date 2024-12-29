@@ -10,6 +10,10 @@
     grid-auto-flow: row;
 }
 
+.grid-type-col {
+    grid-auto-flow: column;
+}
+
 .grid-col-2 {
     grid-template-columns: 1fr;
 }
@@ -29,6 +33,10 @@
 
 .gap-1 {
     gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
 }
 
 @media (width >= 80em) {
